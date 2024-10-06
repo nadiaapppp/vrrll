@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for verrell adriano</title>
+    <style>
+        /* Animasi untuk teks bergerak dari bawah ke atas */
+        @keyframes slideUp {
+            0% { transform: translateY(100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Animasi untuk gambar bergerak dari kiri ke kanan */
+        @keyframes slideIn {
+            0% { transform: translateX(-100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Animasi untuk tombol fade-in (muncul secara bertahap) */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        body {
+            font-family: 'Handwritten', 'Handwitten';
+            background-color: #ffe6e6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4d4d;
+            margin-bottom: 20px;
+            animation: slideUp 2s ease-out forwards;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #333;
+            margin: 20px 0;
+            opacity: 0;
+            animation: slideUp 2s ease-out forwards;
+        }
+
+        p:nth-child(4) {
+            animation-delay: 1s;
+        }
+
+        p:nth-child(5) {
+            animation-delay: 2s;
+        }
+
+        p:nth-child(6) {
+            animation-delay: 3s;
+        }
+
+        p:nth-child(7) {
+            animation-delay: 4s;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            animation: slideIn 2s ease-in-out forwards;
+        }
+
+        audio {
+            margin-top: 20px;
+            animation: fadeIn 2s ease-in forwards;
+        }
+
+        button {
+            background-color: #ff9999;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+            animation: fadeIn 3s ease-in forwards;
+        }
+
+        button:hover {
+            background-color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Untukmu, Cintaku</h1>
+    
+    <img src="c:\Users\user\Downloads\verrel nadiaa.jpg" alt="Gambar Romantis">
+    
+    <p><strong>Verrell Adriano Danuarta</strong></p>
+    <p>"haii bububbb maaf yaa agak alayy, hehe nadia cma mau bilangg tetep semangat yaa apapun masalahnya nadia yakin kalo kamu pasti bisaaa, nadia bakalan selalu ada disamping kamuu, ayang kalau butuh apa-apa bilang ajaa jangan sungkan yaa kalau nadia bisa pasti bakalan nadia bantuu kokk. repotinn nadiaa yaa.. nadia malah senengg bgt kalau kamu sering ngelibatin nadia dalam hidupmuu gausa gengsii dan kalau misal ada sesuatu yang sekirane kurang kamu suka tentang nadia bilang aja ya sengg tuntun nadiaa jadii cwe baik buat kamuu, kalau kamu cmburu atau gasuka nadia gini gituu bilangg ajaa nadia ga keberatan sama sekalii malahh senengg jadi ngerasa disayang bgtt sama kamuuu. Bubb... nadia sayang kamu, jangan kemana mana yaa kalau ada apa apa bilang sama nadia, huhuu kalau bole jujurr nadia aslinya kangennn bgtt sama kamuu apalagi pas awal awal kitaa deket huhuu. besokk kalau kamu uda ada waktu luangg ajakk nadia mainn lagii ya bubbb"</p>
+    
+    <p>sekali lagii, semangat ya bubb buat skripsinyaa.. 
+        jangann smpe lupainn nadiaa wkwkw, nadia bakal selalu doain yang terbaik buaat kamu
+    </p>
+    
+    <p>btw maaf ya sengg kalau nadia masih bnyakk kurangnyaa tapi nadia bakalan selalu berusaha buat jadii yangg terbaikk buat kamuu, maaf yaaaa kalau kadngg iaa sukaa nyebelinn huhuu</p>
+    
+    <p>iaa sebenernya sedii liat kamuu beda huhu, iaa kgenn kamuuu tapi sepertinya nadia gabole egoiss kmu juga pnya sibukmu sndirii tapi nyatanya nadiaa kangen bgtt sama kamuu mass yangg dulu mass huhuu</p>
+    
+    <audio autoplay loop controls>
+        <source src="c:\Users\user\Downloads\WhatsApp Audio 2024-10-05 at 18.14.57_f88956b1.mp3" type="audio/mp3">
+        Browsermu tidak mendukung pemutar audio, tapi kamu bisa <a href="https://example.com/lagu-romantis.mp3">download lagunya di sini</a>.
+    </audio>
+
+    <button class="button" onclick="alert('I love you!')">cobaa tap ini bubb</button>
+
+    <button class="button" onclick="alert('jangan kemana-mana ya sayang, tetep sama iaaa terus..')">yangg ini jugaa di tap yaa bubb</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
